@@ -96,7 +96,7 @@ const getProducts = async () => {
               required/>
               <label htmlFor="password">Password</label>
             </div>
-            <button type='submit' className='btn btn-info w-100 mt-2 p-3' onClick={checkLogin} >登入</button>
+            <button type='submit' className='btn btn-info w-100 mt-2 p-3' >登入</button>
           </form>
         </div>
       ) : (
